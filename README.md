@@ -11,7 +11,7 @@
 
 - 👯 I’m looking to collaborate on **Web Dev projects**
 
-- 📫 How to reach me **singhahivansh12may@gmail.com**
+- 📫 How to reach me **singhshivansh12may@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
