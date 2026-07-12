@@ -24,6 +24,15 @@
 
 </div>
 
+<!-- CURRENTLY — edit this one line whenever things change -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/🔨_building-PriceAlert_v1-3fd99b?style=flat-square&labelColor=161b22" alt="building" />
+<img src="https://img.shields.io/badge/🧠_learning-RAG_%2B_agents-8296ff?style=flat-square&labelColor=161b22" alt="learning" />
+<img src="https://img.shields.io/badge/📬_open_to-engineering_roles-e0a33c?style=flat-square&labelColor=161b22" alt="open to roles" />
+
+</div>
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/shivanshsin0203/shivanshsin0203/main/assets/trajectory.svg" width="100%" alt="My trajectory — full-stack today, AI engineer in progress" />
@@ -43,14 +52,6 @@
 | **[PriceAlert ↗](https://pricealert.store)** | Market alerts you write in plain English, watched every minute, delivered to Telegram | Next.js · Express · Redis · Telegram Bot · LLM |
 
 <sub>🔴 My portfolio pings all three live over SSE and shows their real-time status — **[source ↗](https://github.com/shivanshsin0203/portfolio_)**</sub>
-
-<br/>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/shivanshsin0203/shivanshsin0203/main/assets/deploy.svg" width="100%" alt="Every push, straight to production" />
-
-</div>
 
 ---
 
