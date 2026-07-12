@@ -44,6 +44,14 @@
 
 <sub>🔴 My portfolio pings all three live over SSE and shows their real-time status — **[source ↗](https://github.com/shivanshsin0203/portfolio_)**</sub>
 
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/shivanshsin0203/shivanshsin0203/main/assets/deploy.svg" width="100%" alt="Every push, straight to production" />
+
+</div>
+
 ---
 
 ### 🧰 Tech I build with

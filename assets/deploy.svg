@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 372" width="820" height="372" font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace">
+  <defs>
+    <clipPath id="cmdclip"><rect x="60" y="72" width="0" height="28"><animate attributeName="width" from="0" to="240" begin="0.2s" dur="0.9s" calcMode="spline" keySplines="0.3 0 0.2 1" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="818" height="370" rx="14" fill="#0d0f0c" stroke="#272a24" stroke-width="2"/>
+  <!-- title bar -->
+  <circle cx="30" cy="30" r="6" fill="#e0603c"/>
+  <circle cx="52" cy="30" r="6" fill="#e0a33c"/>
+  <circle cx="74" cy="30" r="6" fill="#3fd99b"/>
+  <text x="410" y="35" text-anchor="middle" fill="#7c9cb8" font-size="14" letter-spacing="1">shivansh@production — deploy</text>
+  <line x1="1" y1="56" x2="819" y2="56" stroke="#272a24" stroke-width="1.5"/>
+
+  <!-- typed command -->
+  <g clip-path="url(#cmdclip)">
+    <text x="60" y="94" fill="#ecede7" font-size="17" font-weight="600">$ git push origin main</text>
+  </g>
+  <text x="36" y="94" fill="#3fd99b" font-size="17">&#9656;</text>
+  <!-- blinking caret -->
+  <rect x="306" y="78" width="9" height="20" fill="#3fd99b">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- build line + progress bar -->
+  <g opacity="0"><animate attributeName="opacity" to="1" begin="1.2s" dur="0.3s" fill="freeze"/>
+    <text x="60" y="134" fill="#7c9cb8" font-size="15">compiling &amp; bundling</text>
+    <rect x="250" y="122" width="300" height="7" rx="3.5" fill="#23262a"/>
+    <rect x="250" y="122" width="0" height="7" rx="3.5" fill="#8296ff"><animate attributeName="width" from="0" to="300" begin="1.3s" dur="1.3s" calcMode="spline" keySplines="0.3 0 0.2 1" fill="freeze"/></rect>
+    <text x="566" y="134" fill="#7c9cb8" font-size="14" opacity="0"><animate attributeName="opacity" to="1" begin="2.6s" dur="0.3s" fill="freeze"/>done</text>
+  </g>
+
+  <!-- steps stream in -->
+  <g font-size="16">
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="2.8s" dur="0.3s" fill="freeze"/>
+      <text x="60" y="174" fill="#3fd99b">&#10003;</text><text x="86" y="174" fill="#c9ccc3">build passed · 0 type errors</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.3s" dur="0.3s" fill="freeze"/>
+      <text x="60" y="204" fill="#7c9cb8">&#8594;</text><text x="86" y="204" fill="#7c9cb8">deploying to production</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.9s" dur="0.3s" fill="freeze"/>
+      <text x="60" y="234" fill="#3fd99b">&#10003;</text><text x="86" y="234" fill="#c9ccc3">live &#183; </text><text x="150" y="234" fill="#8296ff">gitdocs.online</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="4.3s" dur="0.3s" fill="freeze"/>
+      <text x="60" y="264" fill="#3fd99b">&#10003;</text><text x="86" y="264" fill="#c9ccc3">live &#183; </text><text x="150" y="264" fill="#8296ff">squadwars.online</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="4.7s" dur="0.3s" fill="freeze"/>
+      <text x="60" y="294" fill="#3fd99b">&#10003;</text><text x="86" y="294" fill="#c9ccc3">live &#183; </text><text x="150" y="294" fill="#8296ff">pricealert.store</text>
+    </g>
+  </g>
+
+  <!-- final status, pulsing -->
+  <g opacity="0"><animate attributeName="opacity" to="1" begin="5.3s" dur="0.4s" fill="freeze"/>
+    <circle cx="66" cy="330" r="6" fill="#3fd99b">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" begin="5.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="86" y="335" fill="#3fd99b" font-size="16" font-weight="700">all systems operational</text>
+    <text x="360" y="335" fill="#7c9cb8" font-size="14">— claims on paper, evidence on instruments</text>
+  </g>
+</svg>
